@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+#wrapper {
+    width: 1024px;
+    height: 1800px;
+    margin: 0 auto;
+    outline: 1px solid #ccc;
+
+}
+
+#topLines {
+    height: 18px;
+    background-image: url(../images/topLine.png);
+    background-repeat: repeat-x ;
+    background-color: #ccc;
+}
+
+/* Начало блока header */
+
+#header {
+    height: 157px;
+    outline: 1px solid #cc0000;
+    position: relative;
+}
+
+#logo {
+    width: 284px;
+    height: 125px;
+    outline: 0px solid #ccc;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 44px;
+    top:10px;
+}
+
+#logo a{
+    display: block;
+    height: 92px;
+    cursor: pointer;
+}
+
+#faq {
+    width: 82px;
+    height: 164px;
+    outline: 0px solid #ccc;
+    background-image: url(../images/faq.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 43px;
+    top: -18px;
+}
+
+#faq a{
+    display: block;
+    height: 164px;
+    cursor: pointer;
+}
