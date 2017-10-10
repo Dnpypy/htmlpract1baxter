@@ -56,3 +56,76 @@
     height: 164px;
     cursor: pointer;
 }
+
+#nav {
+    width: 520px;
+    height: 30px;
+    outline: 0px solid #ccc;
+    position: absolute;
+    top: 56px;
+    left: 377px;
+}
+
+#nav li {
+    float: left;
+    outline: 0px solid #cc0000;
+    margin-right: 27px;
+}
+
+#nav li a {
+    text-decoration: none;
+    font: 16px Arial, sans-serif;
+    color: #3f3f3f;
+}
+
+#nav li a.active, #nav li a:hover {
+    color: #2c789c;
+}
+
+/* Конец блока header */
+
+/* Начало блока people */
+
+#people {
+    height: 404px;
+    outline: 1px solid #000000;
+    background-image: url(../images/peopleBg.jpg);
+    background-repeat: no-repeat ;
+    background-position: 86px 37px;
+    position: relative;
+}
+
+#peopleImg{
+    width: 395px;
+    height: 399px;
+    outline: 1px solid #ccc;
+    background-image: url(../images/people.jpg);
+    position: absolute;
+    right: 55px ;
+    top: -5px;
+    background-repeat: no-repeat ;
+     
+}
+
+#slogan {
+    width: 360px;
+    height: 80px;
+    outline: 1px solid #ccc;
+    position:  absolute;
+    top: 210px;
+    right: 632px;
+    text-align: right;
+    padding-top:5px;
+}
+#slogan h1 {
+    font: bold 23px Arial, sans-serif;
+    color: #1d1e1b;
+    text-transform: uppercase;
+    
+}
+
+#slogan p{
+    font: 16px Arial, sans-serif;
+    color: #2c789c;
+    
+}
