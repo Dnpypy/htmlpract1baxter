@@ -19,7 +19,7 @@
 
 #header {
     height: 157px;
-    outline: 1px solid #cc0000;
+    outline: 0px solid #cc0000;
     position: relative;
 }
 
@@ -88,7 +88,7 @@
 
 #people {
     height: 404px;
-    outline: 1px solid #000000;
+    outline: 0px solid #000000;
     background-image: url(../images/peopleBg.jpg);
     background-repeat: no-repeat ;
     background-position: 86px 37px;
@@ -98,19 +98,20 @@
 #peopleImg{
     width: 395px;
     height: 399px;
-    outline: 1px solid #ccc;
+    outline: 0px solid #ccc;
     background-image: url(../images/people.jpg);
     position: absolute;
     right: 55px ;
     top: -5px;
     background-repeat: no-repeat ;
+    z-index: 5;
      
 }
 
 #slogan {
     width: 360px;
     height: 80px;
-    outline: 1px solid #ccc;
+    outline: 0px solid #ccc;
     position:  absolute;
     top: 210px;
     right: 632px;
@@ -128,4 +129,166 @@
     font: 16px Arial, sans-serif;
     color: #2c789c;
     
+}
+
+#forLine {
+    height: 101px;
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    outline: 0px solid #cc0000;
+    width: 1024px;
+    background-image: url(../images/forLineBg.png);
+    background-repeat: repeat-y;
+    z-index: 3;
+    
+} 
+
+/* Конец блока people */
+
+/* Начало цветного блока  */
+
+#colors {
+    
+    outline: 1px solid #cc0000;
+    background-image: url(../images/colorsBg.png);
+    background-repeat: repeat-y;
+    padding: 0px 49px 0 42px;
+}
+
+#blue {
+    width: 292px;
+    
+    float: left;
+    background-color: #2c789c;
+    padding-left: 14px;
+    background-image: url(../images/e1-1.png);
+    background-repeat: no-repeat;
+    background-position: 250px 4px; 
+     
+}
+
+#yellow {
+    width: 302px;
+    
+    float: left;
+    background-color: #e5b00d;
+    padding-left: 19px;
+    background-image: url(../images/e2-3.png);
+    background-repeat: no-repeat;
+    background-position: 267px 6px; 
+}
+
+#green {
+    width: 282px;
+    
+    float: left;
+    background-color: #97ba15;
+    padding-left: 24px;
+    background-image: url(../images/e3.png);
+    background-repeat: no-repeat;
+    background-position: 267px 6px; 
+}
+
+#blue, #yellow, #green{
+    color: #fff;
+    padding-top: 13px;
+    position: relative;
+}
+
+#colors h2 {
+    font:  17px Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+#colors p {
+    font:  14px Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+#colors a {
+    text-decoration: none;
+    color: #525252;
+    font:  16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 26px;
+    background-image: url(../images/readMore.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 3px 10px 6px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#romb1 {
+    width: 25px;
+    height: 49px;
+    position: absolute;
+    background-image: url(../images/e4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 49px;
+}
+
+#romb2 {
+    width: 25px;
+    height: 49px;
+    position: absolute;
+    background-image: url(../images/e5.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 49px;
+}
+
+ #green a, #green p {
+    margin-left: 6px;
+}
+
+#yellow a, #yellow p {
+    margin-left: 10px;
+}
+
+/* Конец блока цветного блока */
+
+/* Начало блока blackandwhite */
+
+#blackandwhite {
+    height: 272px;
+    outline: 0px solid #ccc;
+    background-image: url(../images/colorsBg.png);
+    background-repeat: repeat-y;
+    position: relative;
+}
+
+#bLeft, #bRight {
+    position: absolute;
+    width: 40px;
+    height: 101px;
+}
+
+#bLeft {
+    background-image: url(../images/bLeft-2.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+}
+
+#bRight {
+    background-image: url(../images/bRight-2.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+}
+
+#bBottom {
+    background-image: url(../images/bBottom.png);
+    background-repeat: repeat-x;
+    bottom: 0;
+    right: 24px;
+    width: 978px;
+    height: 1px;
+    position: absolute;
 }
