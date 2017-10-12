@@ -150,7 +150,7 @@
 
 #colors {
     
-    outline: 1px solid #cc0000;
+    outline: 0px solid #cc0000;
     background-image: url(../images/colorsBg.png);
     background-repeat: repeat-y;
     padding: 0px 49px 0 42px;
@@ -256,11 +256,12 @@
 /* Начало блока blackandwhite */
 
 #blackandwhite {
-    height: 272px;
+    height: 225px;
     outline: 0px solid #ccc;
     background-image: url(../images/colorsBg.png);
     background-repeat: repeat-y;
     position: relative;
+    padding : 17px 55px 30px 55px;
 }
 
 #bLeft, #bRight {
@@ -281,6 +282,7 @@
     background-repeat: no-repeat;
     bottom: 0;
     right: 0;
+    z-index: 4;
 }
 
 #bBottom {
@@ -291,4 +293,211 @@
     width: 978px;
     height: 1px;
     position: absolute;
+}
+
+#bContent {
+    height: 225px;
+    outline: 0px solid #cc0000;
+    width: 620px;
+    float: left;
+    
+}
+
+#bForm {
+    height: 225px;
+    outline: 0px solid #cc0000;
+    width: 264px;
+    float: left; 
+    margin-left: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+#bContent h2, #bForm h2{
+    font: 24px Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+#bContent h2 {
+    height: 34px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+#bContent p.strong{
+    font:bold 16px Arial, sans-serif;
+    color: #1d1e1b;
+    overflow: hidden;
+    height: 56px;
+}
+
+#bContent p{
+    font:16px Arial, sans-serif;
+    color: #7b7d78;
+    height: 110px;
+    overflow: hidden;
+    
+}
+
+#bContent a {
+    text-decoration: none;
+    color: #b6b7b6;
+    font:  16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 18px;
+    background-image: url(../images/readMoreBlack.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 4px 10px;
+}
+
+#bForm input {
+    width : 247px;
+    height: 31px;
+    border: 1px solid #dedede;
+    margin-bottom: 11px;
+    color: #bababa;
+    font:  16px Arial, sans-serif;
+    padding-left: 15px;
+}
+
+#bForm input.button {
+    width : 99px;
+    height: 26px;
+    border: none;
+    padding: 28px 0 0 0;
+    margin: 0;
+}
+
+/* Конец blackandwhite блока  */
+
+/* Начало блока Dark */
+
+#dark {
+    height: 430px;
+    padding: 13px 30px 14px 41px;
+    outline: 1px solid #cc0000;
+    background-color: #1d1e1b;
+}
+
+#planning, #team, #blog   {
+    outline: 1px solid #ccc;
+    height: 403px;
+    float: left;
+}
+
+#planning, #team {
+    width: 289px;
+}
+
+#blog {
+    width: 297px;
+    
+}
+
+#team, #blog   {
+    margin-left: 39px;
+}
+
+#imgdark1 {
+    width: 289px;
+    height: 115px;
+    background-image: url(../images/dark1.jpg);
+}
+
+#imgdark2 {
+    width: 289px;
+    height: 115px;
+    background-image: url(../images/dark2.jpg);
+}
+
+#dark h3 {
+    height: 27px;
+    outline: 0px solid #ccc;
+    font:  19px Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#planning p, #team p  {
+    height: 226px;
+    outline: 0px solid #ccc;
+    font:  12px Arial, sans-serif;
+    color: #94998f;
+    padding-top: 9px;
+    overflow: hidden;
+}
+
+#planning a, #team a  {
+    text-decoration: none;
+    color: #ffffff;
+    font:  16px Arial, sans-serif;
+    display: block;
+    width: 99px;
+    height: 18px;
+    background-image: url(../images/readMoreBlue.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 4px 10px;
+}
+
+#post1, #post2 {
+    height: 125px;
+    outline: 1px solid #ccc;
+}
+
+#post3 {
+    height: 126px;
+    outline: 1px solid #ccc;
+}
+
+#blogImg1 {
+    width: 111px;
+    height: 81px;
+    float: left;
+    background-image: url(../images/dark3.jpg);
+    margin-right: 10px;
+}
+
+#blogImg2 {
+    width: 111px;
+    height: 81px;
+    float: left;
+    background-image: url(../images/dark4.jpg);
+    margin-right: 10px;
+}
+
+#blogImg3 {
+    width: 111px;
+    height: 81px;
+    float: left;
+    background-image: url(../images/dark5.jpg);
+    margin-right: 10px;
+}
+
+#blog h4{
+    font: bold 13px Arial, sans-serif;
+    color: #fff;
+    
+}
+
+#blog p{
+    font: 12px Arial, sans-serif;
+    color: #94998f;
+    
+}
+
+#blog a{
+    font: 12px Arial, sans-serif;
+    color: #2c789c;
+    text-decoration: underline;
+    
+}
+
+#blog h3 span {
+    color: #2c789c;
+    text-transform: lowercase;
+    padding-left: 13px;
 }
