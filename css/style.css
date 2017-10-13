@@ -256,7 +256,7 @@
 /* Начало блока blackandwhite */
 
 #blackandwhite {
-    height: 225px;
+    /*height: 225px;*/
     outline: 0px solid #ccc;
     background-image: url(../images/colorsBg.png);
     background-repeat: repeat-y;
@@ -376,14 +376,14 @@
 /* Начало блока Dark */
 
 #dark {
-    height: 430px;
+    /*height: 430px;*/
     padding: 13px 30px 14px 41px;
-    outline: 1px solid #cc0000;
+    outline: 0px solid #cc0000;
     background-color: #1d1e1b;
 }
 
 #planning, #team, #blog   {
-    outline: 1px solid #ccc;
+    outline: 0px solid #ccc;
     height: 403px;
     float: left;
 }
@@ -419,6 +419,8 @@
     font:  19px Arial, sans-serif;
     color: #fff;
     text-transform: uppercase;
+    overflow: hidden;
+    
 }
 
 #planning p, #team p  {
@@ -445,12 +447,12 @@
 
 #post1, #post2 {
     height: 125px;
-    outline: 1px solid #ccc;
+    outline: 0px solid #ccc;
 }
 
 #post3 {
     height: 126px;
-    outline: 1px solid #ccc;
+    outline: 0px solid #ccc;
 }
 
 #blogImg1 {
@@ -500,4 +502,168 @@
     color: #2c789c;
     text-transform: lowercase;
     padding-left: 13px;
+}
+
+/* Конец блока Dark*/
+
+/* Начало блока Gray */
+
+#gray {
+    /*height: 168px;*/
+    background-color: #2e302c;
+    outline: 0px solid #FFDD00;
+    padding: 15px 30px 35px 40px;
+}
+
+#about {
+    width: 300px;
+    /*height: 168px;*/
+    outline: 0px solid #ccc;
+    float: left;
+}
+
+#partners {
+    width: 628px;
+    height: 158px;
+    outline: 0px solid #ccc;
+    float: left;
+    margin-left: 26px;
+}
+
+#gray h2 {
+    font: 18px Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+#gray p {
+    font:  12px Arial, sans-serif;
+    color: #94998f;
+    margin-bottom: 6px;
+}
+
+#gray a {
+    font:  15px Arial, sans-serif;
+    color: #2c789c;
+    text-decoration: none;
+}
+
+.partner {
+    float: left;
+    outline: 0px solid #ccc;
+    width: 275px;
+}
+
+.partner li{
+    font:  11px Arial, sans-serif;
+    color: #94998f;
+    margin-bottom: 15px;
+    padding-left: 22px;
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+
+}
+#p1 {
+    margin-top: 6px;
+    margin-left: 22px;
+}
+
+#p2 {
+    margin-top: 6px;
+    margin-left: 56px;
+}
+
+/* Конец блока Gray */
+
+/* Начало блока footer */
+
+#footer {
+    height: 154px;
+    background-color: #131412;
+    outline: 0px solid #cc0000;
+    position: relative;
+}
+
+#copy {
+    position: absolute;
+    top: 81px;
+    left: 39px ;
+}
+
+#copy, #copy a {
+    color: #9b9d99;
+    font:  13px Arial, sans-serif;
+    text-decoration: none;
+}
+
+#footerNav {
+    width: 470px;
+    height: 30px;
+    outline: 0px solid #ccc;
+    position: absolute;
+    top: 81px;
+    right: 37px;
+    
+}
+
+#footerNav li {
+    float: right;
+    outline: 0px solid #cc0000;
+    margin-right: 23px;
+}
+
+#footerNav li a {
+    text-decoration: none;
+    font: 13px Arial, sans-serif;
+    color: #94998f;
+}
+
+#footerNav li a.active, #footerNav li a:hover {
+    
+    color: #2c789c;
+}
+
+#footerSocial {
+    width: 160px;
+    height: 22px;
+    position: absolute;
+    top: 111px;
+    right: 37px;
+    outline: 0px solid #00cc00;
+}
+
+#footerSocial li{
+    float: right;
+    margin-right: 6px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+#s1 {
+   width: 22px;
+   background-image: url(../images/s1.png); 
+}
+
+#s2 {
+   width: 27px;
+   background-image: url(../images/s2.png); 
+}
+
+#s3 {
+   width: 22px;
+   background-image: url(../images/s3.png); 
+}
+
+#s4 {
+   width: 63px;
+   background-image: url(../images/s4.png); 
+}
+
+#footerSocial li a{
+    height: 22px;
+    display: block;
+    cursor: pointer;
+   
 }

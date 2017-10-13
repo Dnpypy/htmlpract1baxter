@@ -1,0 +1,8 @@
+#wrapper {
+    font: Arial, sans-serif !important;
+}
+
+#slogan h1, #bContent p.strong, #blog h4 {
+    font-weight: bold;
+}
+
