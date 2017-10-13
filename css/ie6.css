@@ -6,3 +6,6 @@
     font-weight: bold;
 }
 
+#bBottom {
+    bottom: -18px !important;
+}
