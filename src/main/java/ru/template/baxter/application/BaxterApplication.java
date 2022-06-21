@@ -1,4 +1,4 @@
-package ru.template.baxter.application.start;
+package ru.template.baxter.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
