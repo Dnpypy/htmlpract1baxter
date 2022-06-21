@@ -2,6 +2,7 @@ package ru.template.baxter.application.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import ru.template.baxter.application.formbean.AppUserForm;
 import ru.template.baxter.application.model.AppUser;
 import ru.template.baxter.application.model.Gender;
 
