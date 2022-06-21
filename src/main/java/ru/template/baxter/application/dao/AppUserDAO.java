@@ -2,12 +2,14 @@ package ru.template.baxter.application.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Repository;
 import ru.template.baxter.application.formbean.AppUserForm;
 import ru.template.baxter.application.model.AppUser;
 import ru.template.baxter.application.model.Gender;
 
 import java.util.*;
 
+@Repository
 public class AppUserDAO {
     // Config in WebSecurityConfig
     @Autowired
