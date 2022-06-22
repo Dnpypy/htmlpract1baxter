@@ -20,11 +20,4 @@ public class WebConfiguration implements WebMvcConfigurer {
         return messageSource;
     }
 
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/_menu").setViewName("welcomePage");
-        registry.addViewController("/_menu").setViewName("membersPage");
-        registry.addViewController("/_menu").setViewName("registerPage");
-        registry.addViewController("/_menu").setViewName("registerSuccessfulPage");
-    }
 }
