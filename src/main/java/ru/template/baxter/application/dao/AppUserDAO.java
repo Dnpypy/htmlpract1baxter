@@ -44,7 +44,6 @@ public class AppUserDAO {
         return max;
     }
 
-    //
 
     public AppUser findAppUserByUserName(String userName) {
         Collection<AppUser> appUsers = USERS_MAP.values();
