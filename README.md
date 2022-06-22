@@ -4,18 +4,16 @@
 
 * [Documentation Maven](https://maven.apache.org/guides/index.html)
 * [Spring Boot Reference Documentation](https://docs.spring.io/)
+* [Thymeleaf documentation](https://www.thymeleaf.org/documentation.html)
 
-
-### Развертывание приложения Spring Boot
+### Запуск приложения Spring Boot
 
 ```
-Войдите в режим командной строки (команда cmd), перейдите в папку с pom.xml и введите команду mvn clean package
+Войдите в режим командной строки (команда cmd)
 
-Maven cгенерирует исполняемый jar-файл с именем demo-0.0.1-SNAPSHOT.jar
+Перейдите в папку проектом
 
-Перейдите в папку cd target
-
-Затем запустите jar-файл: java -jar demo-0.0.1-SNAPSHOT.jar
+Введите команду spring-boot:run
 
 Перейдите в браузере по адресу http://localhost:8080 
 ```
